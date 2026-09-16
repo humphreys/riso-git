@@ -1,0 +1,53 @@
+
+/* Body font */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Heading font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+h1{
+    Font-size: 50px;
+    color: red;
+}
+.blush-bg{
+        background-color: #F6EFEC;
+}
+.navitems {
+display: flex;
+align-items: center;
+    gap: 183px;
+
+
+}
+.navitems ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navitems li{
+display: inline-block;
+}
+.navitems li a{
+    color: #4B3A43;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+ .navitems li a:hover{
+    color: #C98F90;
+   
+    
+}
